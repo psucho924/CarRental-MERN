@@ -2,7 +2,7 @@ import imagekit from "../configs/imageKit.js";
 import User from "../models/User.js";
 import fs from "fs";
 import Car from "../models/Car.js";
-import Booking from "../models/booking.js";
+import Booking from "../models/Booking.js";
 
 // API to change user to owner
 export const changeRoleToOwner = async (req, res) => {
