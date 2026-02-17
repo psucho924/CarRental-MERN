@@ -41,12 +41,10 @@ import car_image2 from "./car_image2.png";
 import car_image3 from "./car_image3.png";
 import car_image4 from "./car_image4.png";
 import profile_picture from "./profile_picture.jpg";
-import logo_ from "./logo_.png";
 
 export const cityList = ["Mumbai", "Delhi", "Bangalore", "Pune"];
 
 export const assets = {
-  logo_,
   profile_picture,
   logo,
   gmail_logo,
