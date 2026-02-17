@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
-import wrapAsync from "../../../WanderStay/utils/wrapAsync.js";
+import wrapAsync from "../utils/wrapAsync.js";
 
 export const protect = wrapAsync(async (req, res, next) => {
   const token = req.headers.authorization;

@@ -1,5 +1,5 @@
 import express from "express";
-import wrapAsync from "../../../WanderStay/utils/wrapAsync.js";
+import wrapAsync from "../utils/wrapAsync.js";
 import {
   changeBookingStatus,
   checkAvailabilityOfCar,

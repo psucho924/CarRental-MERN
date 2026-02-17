@@ -1,6 +1,6 @@
 import express from "express";
 import { protect } from "../middleware/auth.js";
-import wrapAsync from "../../../WanderStay/utils/wrapAsync.js";
+import wrapAsync from "../utils/wrapAsync.js";
 import {
   addCar,
   changeRoleToOwner,
